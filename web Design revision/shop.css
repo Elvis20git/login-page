@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    /* position: absolute; */
+    /* top: 50px; */
+    left: 50px;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+.log{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 40px;
+
+}
+input [type=text],
+input [type=password]
+{
+    display: flex;
+}
